@@ -21,6 +21,14 @@ public class User {
     private String telephone;
     
     private String email;
+    
+    public User(String firstName, String lastName, String address, String telephone, String email) {
+    	this.firstName = firstName;
+    	this.lastName = lastName;
+    	this.address = address;
+    	this.telephone = telephone;
+    	this.email = email;
+    }
 
 	public Long getId() {
 		return id;
