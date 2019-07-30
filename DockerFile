@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8080
+ADD /target/userRegistration.jar userRegistration.jar
+ENTRYPOINT ["java", "-jar", "userRegistration.jar"]
